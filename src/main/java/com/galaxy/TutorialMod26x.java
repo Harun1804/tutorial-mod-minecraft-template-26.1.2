@@ -1,5 +1,6 @@
 package com.galaxy;
 
+import com.galaxy.block.ModBlocks;
 import com.galaxy.creativemodetab.ModCreativeModeTabs;
 import com.galaxy.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -19,5 +20,6 @@ public class TutorialMod26x implements ModInitializer {
 	public void onInitialize() {
 		ModCreativeModeTabs.registerModCreativeModeTabs();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

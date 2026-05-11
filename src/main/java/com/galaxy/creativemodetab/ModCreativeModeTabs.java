@@ -1,6 +1,7 @@
 package com.galaxy.creativemodetab;
 
 import com.galaxy.TutorialMod26x;
+import com.galaxy.block.ModBlocks;
 import com.galaxy.item.ModItems;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.core.Registry;
@@ -18,10 +19,15 @@ public class ModCreativeModeTabs {
     public static final CreativeModeTab FLUORITE_BLOCK_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
         Identifier.fromNamespaceAndPath(TutorialMod26x.MOD_ID,"fluorite_blocks"),
         FabricCreativeModeTab.builder()
-            .icon(() -> new ItemStack(ModItems.FLUORITE))
+            .icon(() -> new ItemStack(ModBlocks.FLUORITE_BLOCK))
             .title(Component.translatable("creativemodetab.tutorial-mod-26x.fluorite_blocks"))
             .displayItems((context, output) -> {
-                output.accept(ModItems.RAW_FLUORITE);
+                output.accept(ModBlocks.FLUORITE_BLOCK);
+                output.accept(ModBlocks.RAW_FLUORITE_BLOCK);
+                output.accept(ModBlocks.FLUORITE_ORE);
+                output.accept(ModBlocks.FLUORITE_END_ORE);
+                output.accept(ModBlocks.FLUORITE_DEEPSLATE_ORE);
+                output.accept(ModBlocks.FLUORITE_NETHER_ORE);
             })
             .build()
     );

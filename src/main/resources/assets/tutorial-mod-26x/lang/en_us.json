@@ -1,6 +1,14 @@
 {
   "item.tutorial-mod-26x.fluorite": "Fluorite",
   "item.tutorial-mod-26x.raw_fluorite": "Raw Fluorite",
+
+  "block.tutorial-mod-26x.fluorite_block": "Fluorite Block",
+  "block.tutorial-mod-26x.raw_fluorite_block": "Raw Fluorite Block",
+  "block.tutorial-mod-26x.fluorite_ore": "Fluorite Ore",
+  "block.tutorial-mod-26x.fluorite_end_ore": "Fluorite End Ore",
+  "block.tutorial-mod-26x.fluorite_deepslate_ore": "Fluorite Deepslate Ore",
+  "block.tutorial-mod-26x.fluorite_nether_ore": "Fluorite Nether Ore",
+
   "creativemodetab.tutorial-mod-26x.fluorite_items": "Fluorite Items",
   "creativemodetab.tutorial-mod-26x.fluorite_blocks": "Fluorite Blocks"
 }
