@@ -24,9 +24,9 @@ public class ModItems {
     public static void registerModItems() {
         TutorialMod26x.LOGGER.info("Registering Mod Items for " + TutorialMod26x.MOD_ID);
 
-        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
-            output.accept(FLUORITE);
-            output.accept(RAW_FLUORITE);
-        });
+//        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
+//            output.accept(FLUORITE);
+//            output.accept(RAW_FLUORITE);
+//        });
     }
 }
