@@ -1,4 +1,6 @@
 {
   "item.tutorial-mod-26x.fluorite": "Fluorite",
-  "item.tutorial-mod-26x.raw_fluorite": "Raw Fluorite"
+  "item.tutorial-mod-26x.raw_fluorite": "Raw Fluorite",
+  "creativemodetab.tutorial-mod-26x.fluorite_items": "Fluorite Items",
+  "creativemodetab.tutorial-mod-26x.fluorite_blocks": "Fluorite Blocks"
 }
