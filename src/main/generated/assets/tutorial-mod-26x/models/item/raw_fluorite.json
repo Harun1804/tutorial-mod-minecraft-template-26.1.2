@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tutorial-mod-26x:item/raw_fluorite"
+  }
+}
