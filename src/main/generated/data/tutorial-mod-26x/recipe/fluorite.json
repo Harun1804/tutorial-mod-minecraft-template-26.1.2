@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tutorial-mod-26x:fluorite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "tutorial-mod-26x:fluorite"
+  }
+}

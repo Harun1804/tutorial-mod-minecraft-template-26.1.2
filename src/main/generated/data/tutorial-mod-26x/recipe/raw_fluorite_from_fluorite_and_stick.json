@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "fluorite",
+  "ingredients": [
+    "tutorial-mod-26x:fluorite",
+    "minecraft:stick"
+  ],
+  "result": {
+    "count": 4,
+    "id": "tutorial-mod-26x:raw_fluorite"
+  }
+}
