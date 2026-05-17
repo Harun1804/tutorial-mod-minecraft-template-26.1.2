@@ -38,6 +38,7 @@ public class ModCreativeModeTabs {
             .icon(() -> new ItemStack(ModItems.FLUORITE))
             .title(Component.translatable("creativemodetab.tutorial-mod-26x.fluorite_items"))
             .displayItems((context, output) -> {
+                output.accept(ModItems.CHISEL);
                 output.accept(ModItems.FLUORITE);
                 output.accept(ModItems.RAW_FLUORITE);
             })

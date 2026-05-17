@@ -1,6 +1,7 @@
 package com.galaxy.item;
 
 import com.galaxy.TutorialMod26x;
+import com.galaxy.item.custom.ChiselItem;
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -24,4 +25,5 @@ public class ModItems {
 
     public static final Item FLUORITE = registerItem("fluorite", Item::new);
     public static final Item RAW_FLUORITE = registerItem("raw_fluorite", Item::new);
+    public static final Item CHISEL = registerItem("chisel", properties -> new ChiselItem(properties.durability(32)));
 }
